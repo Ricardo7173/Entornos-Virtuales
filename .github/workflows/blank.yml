@@ -1,4 +1,4 @@
-name: Angular-CI
+name: Angular 17 CI
 
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.2
         with:
-          node-version: "20.11.0"
+          node-version: "20.14.0"
 
       # Instalación de dependencias
       - name: Instala dependencias
